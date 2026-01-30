@@ -13,7 +13,7 @@ let package = Package(
         .binaryTarget(
             name: "SwiftUIIntrospect",
             url: "https://github.com/swift-bins/SwiftUI-Introspect/releases/download/26.0.0/SwiftUIIntrospect.xcframework.zip",
-            checksum: "d779fb62e65e64a36436b8f502b53243a9addaa379e89f6e007ba2203fd50c32"
+            checksum: "ad7dd1c6dabf647f210c948b26c8fc932d80b45c2ed475d17de04e8119de949a"
         )
     ]
 )

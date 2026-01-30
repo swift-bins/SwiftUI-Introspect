@@ -1,6 +1,9 @@
-# SwiftUI-Introspect (Binary)
+# swiftui-introspect (Binary)
 
-Pre-built binary xcframeworks for [SwiftUI-Introspect](https://github.com/siteline/SwiftUI-Introspect).
+Pre-built binary xcframeworks for [swiftui-introspect](https://github.com/siteline/SwiftUI-Introspect).
+
+> ![TIP]
+> swift-bins is currently a proof of concept, but you're welcome to use this prebuilt package. It's easy to get started with and easy to detach from later.
 
 ## Usage
 
@@ -14,16 +17,6 @@ Update your package dependency in `Package.swift`:
 .package(url: "https://github.com/swift-bins/SwiftUI-Introspect", from: "26.0.0")
 ```
 
-**Note:** You also need to update your target dependency (package name changes):
-
-```swift
-// Before
-.product(name: "SwiftUI-Introspect", package: "SwiftUI-Introspect")
-
-// After
-.product(name: "SwiftUI-Introspect", package: "siteline_SwiftUI-Introspect")
-```
-
 ## License
 
 See [LICENSE](LICENSE) - sourced from the original repository.
@@ -33,3 +26,7 @@ See [LICENSE](LICENSE) - sourced from the original repository.
 For documentation and source code, visit the original repo:
 - README: https://github.com/siteline/SwiftUI-Introspect#readme
 - Source: https://github.com/siteline/SwiftUI-Introspect
+
+## More Information
+
+For more information, see the [swift-binify](https://github.com/swift-bins/swift-binify) repository.
